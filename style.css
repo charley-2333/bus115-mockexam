@@ -1,0 +1,9 @@
+body { font-family: Arial, sans-serif; background: #f1f1f1; margin: 0; padding: 0; display: flex; justify-content: center; }
+.container { width: 95%; max-width: 900px; background: #fff; padding: 20px; margin: 20px 0; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2); }
+header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+header h1 { color: #333; }
+#timer { font-weight: bold; color: #e74c3c; }
+.controls { margin-top: 20px; display: flex; justify-content: space-between; }
+button { padding: 10px 20px; border: none; border-radius: 5px; background: #3498db; color: #fff; cursor: pointer; font-weight: bold; }
+button:disabled { background: #ccc; cursor: not-allowed; }
+input[type="radio"] { margin-right: 10px; }
